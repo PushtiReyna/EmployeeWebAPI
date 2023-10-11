@@ -1,0 +1,14 @@
+D:\project\WebAPI\DataLayer\obj\Debug\net7.0\DataLayer.csproj.AssemblyReference.cache
+D:\project\WebAPI\DataLayer\obj\Debug\net7.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\WebAPI\DataLayer\obj\Debug\net7.0\DataLayer.AssemblyInfoInputs.cache
+D:\project\WebAPI\DataLayer\obj\Debug\net7.0\DataLayer.AssemblyInfo.cs
+D:\project\WebAPI\DataLayer\obj\Debug\net7.0\DataLayer.csproj.CoreCompileInputs.cache
+D:\project\WebAPI\DataLayer\bin\Debug\net7.0\DataLayer.deps.json
+D:\project\WebAPI\DataLayer\bin\Debug\net7.0\DataLayer.runtimeconfig.json
+D:\project\WebAPI\DataLayer\bin\Debug\net7.0\DataLayer.dll
+D:\project\WebAPI\DataLayer\bin\Debug\net7.0\DataLayer.pdb
+D:\project\WebAPI\DataLayer\obj\Debug\net7.0\DataLayer.dll
+D:\project\WebAPI\DataLayer\obj\Debug\net7.0\refint\DataLayer.dll
+D:\project\WebAPI\DataLayer\obj\Debug\net7.0\DataLayer.pdb
+D:\project\WebAPI\DataLayer\obj\Debug\net7.0\DataLayer.genruntimeconfig.cache
+D:\project\WebAPI\DataLayer\obj\Debug\net7.0\ref\DataLayer.dll
