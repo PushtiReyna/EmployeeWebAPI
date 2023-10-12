@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using EmployeeWebApi.Repository.Entities;
+using EmployeeWebApi.Entities;
 
 namespace BusinessLayer
 {
@@ -11,9 +11,9 @@ namespace BusinessLayer
             _DAL = new DataLayer.EmployeeDAL();
         }
 
-        public List<EmployeeMst> GeteEmployeeList()
+        public List<EmployeeMst> GetEmployeeList()
         {
-            return _DAL.GeteEmployeeList();
+            return _DAL.GetEmployeeList();
         }
 
 

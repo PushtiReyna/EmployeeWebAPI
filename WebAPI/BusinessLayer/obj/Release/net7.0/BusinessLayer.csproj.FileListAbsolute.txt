@@ -1,0 +1,15 @@
+D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\BusinessLayer\bin\Release\net7.0\BusinessLayer.deps.json
+D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\BusinessLayer\bin\Release\net7.0\BusinessLayer.dll
+D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\BusinessLayer\bin\Release\net7.0\BusinessLayer.pdb
+D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\BusinessLayer\bin\Release\net7.0\DataLayer.dll
+D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\BusinessLayer\bin\Release\net7.0\DataLayer.pdb
+D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\BusinessLayer\obj\Release\net7.0\BusinessLayer.csproj.AssemblyReference.cache
+D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\BusinessLayer\obj\Release\net7.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\BusinessLayer\obj\Release\net7.0\BusinessLayer.AssemblyInfoInputs.cache
+D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\BusinessLayer\obj\Release\net7.0\BusinessLayer.AssemblyInfo.cs
+D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\BusinessLayer\obj\Release\net7.0\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\BusinessLayer\obj\Release\net7.0\BusinessLayer.csproj.CopyComplete
+D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\BusinessLayer\obj\Release\net7.0\BusinessLayer.dll
+D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\BusinessLayer\obj\Release\net7.0\refint\BusinessLayer.dll
+D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\BusinessLayer\obj\Release\net7.0\BusinessLayer.pdb
+D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\BusinessLayer\obj\Release\net7.0\ref\BusinessLayer.dll

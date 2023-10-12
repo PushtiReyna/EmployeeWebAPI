@@ -1,4 +1,4 @@
-﻿using EmployeeWebApi.Repository.Entities;
+﻿using EmployeeWebApi.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -20,8 +20,7 @@ namespace EmployeeWebApi.Controllers
         [Route("GetEmployeeList")]
         public List<EmployeeMst> GetEmployeeList()
         {
-            //return Ok(_db.EmployeeMsts.ToList());
-            return _BLL.GeteEmployeeList();
+            return _BLL.GetEmployeeList();
         }
 
         [HttpPost]
@@ -37,12 +36,12 @@ namespace EmployeeWebApi.Controllers
         public IActionResult UpdateEmployee(int id,EmployeeMst employee)
         {
 
-           var UpdateEmployee = _BLL.UpdateEmployee(id,employee);
+            var UpdateEmployee = _BLL.UpdateEmployee(id,employee);
             if (UpdateEmployee == false)
             {
                 return BadRequest();
             }
-            return Ok();
+            return Ok(employee);
 
         }
 
@@ -55,7 +54,7 @@ namespace EmployeeWebApi.Controllers
             {
                 return BadRequest();
             }
-            return Ok();
+            return Ok(id);
         }
 
         //public readonly EmployeeApidbContext _db;

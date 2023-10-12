@@ -1,4 +1,4 @@
-﻿using EmployeeWebApi.Repository.Entities;
+﻿using EmployeeWebApi.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,7 +12,7 @@ namespace DataLayer
 
         }
 
-        public List<EmployeeMst> GeteEmployeeList()
+        public List<EmployeeMst> GetEmployeeList()
         {
             //return Ok(_db.EmployeeMsts.ToList());
             var db = new EmployeeApidbContext();
@@ -24,7 +24,6 @@ namespace DataLayer
             var db = new EmployeeApidbContext();
             db.EmployeeMsts.Add(employee);
             db.SaveChanges();
-
         }
 
         public Boolean UpdateEmployee(int id, EmployeeMst employee)

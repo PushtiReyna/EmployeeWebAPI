@@ -5906,11 +5906,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\project\\WebAPI\\BusinessLayer\\BusinessLayer.csproj",
+      "projectUniqueName": "D:\\project\\EmployeeWebAPI\\EmployeeWebAPI\\WebAPI\\BusinessLayer\\BusinessLayer.csproj",
       "projectName": "BusinessLayer",
-      "projectPath": "D:\\project\\WebAPI\\BusinessLayer\\BusinessLayer.csproj",
+      "projectPath": "D:\\project\\EmployeeWebAPI\\EmployeeWebAPI\\WebAPI\\BusinessLayer\\BusinessLayer.csproj",
       "packagesPath": "C:\\Users\\Reyna\\.nuget\\packages\\",
-      "outputPath": "D:\\project\\WebAPI\\BusinessLayer\\obj\\",
+      "outputPath": "D:\\project\\EmployeeWebAPI\\EmployeeWebAPI\\WebAPI\\BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Reyna\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5927,8 +5927,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\project\\WebAPI\\DataLayer\\DataLayer.csproj": {
-              "projectPath": "D:\\project\\WebAPI\\DataLayer\\DataLayer.csproj"
+            "D:\\project\\EmployeeWebAPI\\EmployeeWebAPI\\WebAPI\\DataLayer\\DataLayer.csproj": {
+              "projectPath": "D:\\project\\EmployeeWebAPI\\EmployeeWebAPI\\WebAPI\\DataLayer\\DataLayer.csproj"
             }
           }
         }

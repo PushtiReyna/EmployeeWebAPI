@@ -6382,11 +6382,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\project\\WebAPI\\EmployeeWebApi\\EmployeeWebApi.csproj",
+      "projectUniqueName": "D:\\project\\EmployeeWebAPI\\EmployeeWebAPI\\WebAPI\\EmployeeWebApi\\EmployeeWebApi.csproj",
       "projectName": "EmployeeWebApi",
-      "projectPath": "D:\\project\\WebAPI\\EmployeeWebApi\\EmployeeWebApi.csproj",
+      "projectPath": "D:\\project\\EmployeeWebAPI\\EmployeeWebAPI\\WebAPI\\EmployeeWebApi\\EmployeeWebApi.csproj",
       "packagesPath": "C:\\Users\\Reyna\\.nuget\\packages\\",
-      "outputPath": "D:\\project\\WebAPI\\EmployeeWebApi\\obj\\",
+      "outputPath": "D:\\project\\EmployeeWebAPI\\EmployeeWebAPI\\WebAPI\\EmployeeWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Reyna\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6404,8 +6404,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\project\\WebAPI\\BusinessLayer\\BusinessLayer.csproj": {
-              "projectPath": "D:\\project\\WebAPI\\BusinessLayer\\BusinessLayer.csproj"
+            "D:\\project\\EmployeeWebAPI\\EmployeeWebAPI\\WebAPI\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "D:\\project\\EmployeeWebAPI\\EmployeeWebAPI\\WebAPI\\BusinessLayer\\BusinessLayer.csproj"
             }
           }
         }
