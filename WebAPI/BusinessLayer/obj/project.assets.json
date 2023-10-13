@@ -1943,6 +1943,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "DTO": "1.0.0",
           "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.EntityFrameworkCore": "7.0.12",
@@ -1953,6 +1954,30 @@
         },
         "runtime": {
           "bin/placeholder/DataLayer.dll": {}
+        }
+      },
+      "DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DTO.dll": {}
+        }
+      },
+      "ServiceLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DataLayer": "1.0.0",
+          "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0"
+        },
+        "compile": {
+          "bin/placeholder/ServiceLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ServiceLayer.dll": {}
         }
       }
     }
@@ -5892,12 +5917,23 @@
       "type": "project",
       "path": "../DataLayer/DataLayer.csproj",
       "msbuildProject": "../DataLayer/DataLayer.csproj"
+    },
+    "DTO/1.0.0": {
+      "type": "project",
+      "path": "../DTO/DTO.csproj",
+      "msbuildProject": "../DTO/DTO.csproj"
+    },
+    "ServiceLayer/1.0.0": {
+      "type": "project",
+      "path": "../ServiceLayer/ServiceLayer.csproj",
+      "msbuildProject": "../ServiceLayer/ServiceLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "DataLayer >= 1.0.0",
-      "Microsoft.AspNetCore.Mvc.Abstractions >= 2.2.0"
+      "Microsoft.AspNetCore.Mvc.Abstractions >= 2.2.0",
+      "ServiceLayer >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5929,6 +5965,9 @@
           "projectReferences": {
             "D:\\project\\EmployeeWebAPI\\EmployeeWebAPI\\WebAPI\\DataLayer\\DataLayer.csproj": {
               "projectPath": "D:\\project\\EmployeeWebAPI\\EmployeeWebAPI\\WebAPI\\DataLayer\\DataLayer.csproj"
+            },
+            "D:\\project\\EmployeeWebAPI\\EmployeeWebAPI\\WebAPI\\ServiceLayer\\ServiceLayer.csproj": {
+              "projectPath": "D:\\project\\EmployeeWebAPI\\EmployeeWebAPI\\WebAPI\\ServiceLayer\\ServiceLayer.csproj"
             }
           }
         }

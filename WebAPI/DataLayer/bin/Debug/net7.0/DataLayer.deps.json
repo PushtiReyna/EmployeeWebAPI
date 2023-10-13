@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "DataLayer/1.0.0": {
         "dependencies": {
+          "DTO": "1.0.0",
           "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.EntityFrameworkCore": "7.0.12",
@@ -874,6 +875,11 @@
           }
         }
       },
+      "DTO/1.0.0": {
+        "runtime": {
+          "DTO.dll": {}
+        }
+      },
       "Microsoft.Data.Tools.Schema.Sql/16.0.0.0": {
         "runtime": {
           "Microsoft.Data.Tools.Schema.Sql.dll": {
@@ -1496,6 +1502,11 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.Data.Tools.Schema.Sql/16.0.0.0": {
       "type": "reference",

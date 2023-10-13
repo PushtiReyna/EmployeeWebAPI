@@ -1,7 +1,7 @@
 ﻿using EmployeeWebApi.Entities;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using EmployeeWebApi.ViewModel;
+using DTO.ReqResDTO;
 
 namespace EmployeeWebApi.Controllers
 {
@@ -9,39 +9,65 @@ namespace EmployeeWebApi.Controllers
     [ApiController]
     public class EmployeeController : ControllerBase
     {
-      
+
         private BusinessLayer.EmployeeBLL _BLL;
+
         public EmployeeController()
         {
             _BLL = new BusinessLayer.EmployeeBLL();
+
         }
 
         [HttpGet]
         [Route("GetEmployeeList")]
-        public List<EmployeeMst> GetEmployeeList()
+        public List<EmployeeViewModel> GetEmployeeList()
         {
-            return _BLL.GetEmployeeList();
+            List<EmployeeViewModel> lstEmployee = new List<EmployeeViewModel>();
+            foreach (EmployeeMstDTO employee in _BLL.GetEmployeeList())
+            {
+                EmployeeViewModel employeeViewModel = new EmployeeViewModel();
+                employeeViewModel.EmployeeId = employee.Id;
+                employeeViewModel.EmployeeFirstName = employee.FirstName;
+                employeeViewModel.EmployeeLastName = employee.LastName;
+                lstEmployee.Add(employeeViewModel);
+            }
+            return lstEmployee;
         }
 
         [HttpPost]
         [Route("CreateEmployee")]
-        public IActionResult CreateEmployee(EmployeeMst employee)
+        public IActionResult CreateEmployee(EmployeeViewModel employeeViewModel)
         {
-            _BLL.CreateEmployee(employee);
-            return Ok(employee);
+            var employeeMstDTO = new EmployeeMstDTO()
+            {
+                Id = employeeViewModel.EmployeeId,
+                FirstName = employeeViewModel.EmployeeFirstName,
+                LastName = employeeViewModel.EmployeeLastName,
+            };
+
+            _BLL.CreateEmployee(employeeMstDTO);
+
+           
+            return Ok(employeeMstDTO);
         }
 
         [HttpPut]
         [Route("UpdateEmployee")]
-        public IActionResult UpdateEmployee(int id,EmployeeMst employee)
+        public IActionResult UpdateEmployee(int id, EmployeeViewModel employeeViewModel)
         {
+            var employeeMstDTO = new EmployeeMstDTO()
+            {
+                Id = employeeViewModel.EmployeeId,
+                FirstName = employeeViewModel.EmployeeFirstName,
+                LastName = employeeViewModel.EmployeeLastName,
+            };
 
-            var UpdateEmployee = _BLL.UpdateEmployee(id,employee);
+            var UpdateEmployee = _BLL.UpdateEmployee(id, employeeMstDTO);
             if (UpdateEmployee == false)
             {
                 return BadRequest();
             }
-            return Ok(employee);
+            return Ok(employeeMstDTO);
 
         }
 

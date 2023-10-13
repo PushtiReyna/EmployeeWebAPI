@@ -1052,7 +1052,8 @@
       "BusinessLayer/1.0.0": {
         "dependencies": {
           "DataLayer": "1.0.0",
-          "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0"
+          "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
+          "ServiceLayer": "1.0.0"
         },
         "runtime": {
           "BusinessLayer.dll": {}
@@ -1060,6 +1061,7 @@
       },
       "DataLayer/1.0.0": {
         "dependencies": {
+          "DTO": "1.0.0",
           "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.EntityFrameworkCore": "7.0.12",
@@ -1067,6 +1069,20 @@
         },
         "runtime": {
           "DataLayer.dll": {}
+        }
+      },
+      "DTO/1.0.0": {
+        "runtime": {
+          "DTO.dll": {}
+        }
+      },
+      "ServiceLayer/1.0.0": {
+        "dependencies": {
+          "DataLayer": "1.0.0",
+          "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0"
+        },
+        "runtime": {
+          "ServiceLayer.dll": {}
         }
       }
     }
@@ -1902,6 +1918,16 @@
       "sha512": ""
     },
     "DataLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ServiceLayer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

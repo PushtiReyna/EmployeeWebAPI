@@ -207,8 +207,12 @@ D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\EmployeeWebApi\bin\Debug\net7.0\
 D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\EmployeeWebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\EmployeeWebApi\bin\Debug\net7.0\BusinessLayer.dll
 D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\EmployeeWebApi\bin\Debug\net7.0\DataLayer.dll
+D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\EmployeeWebApi\bin\Debug\net7.0\DTO.dll
+D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\EmployeeWebApi\bin\Debug\net7.0\ServiceLayer.dll
 D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\EmployeeWebApi\bin\Debug\net7.0\BusinessLayer.pdb
 D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\EmployeeWebApi\bin\Debug\net7.0\DataLayer.pdb
+D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\EmployeeWebApi\bin\Debug\net7.0\DTO.pdb
+D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\EmployeeWebApi\bin\Debug\net7.0\ServiceLayer.pdb
 D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\EmployeeWebApi\obj\Debug\net7.0\EmployeeWebApi.csproj.AssemblyReference.cache
 D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\EmployeeWebApi\obj\Debug\net7.0\EmployeeWebApi.GeneratedMSBuildEditorConfig.editorconfig
 D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\EmployeeWebApi\obj\Debug\net7.0\EmployeeWebApi.AssemblyInfoInputs.cache

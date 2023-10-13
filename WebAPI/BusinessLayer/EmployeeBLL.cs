@@ -1,30 +1,60 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using EmployeeWebApi.Entities;
+﻿using EmployeeWebApi.Entities;
+using ServiceLayer.Interface;
+using DTO.ReqResDTO;
+
 
 namespace BusinessLayer
 {
-    public class EmployeeBLL
+    public class EmployeeBLL 
     {
-        private DataLayer.EmployeeDAL _DAL;
+        public readonly IEmployee _Iemployee;
+
+
         public EmployeeBLL()
         {
-            _DAL = new DataLayer.EmployeeDAL();
+            _Iemployee = new ServiceLayer.EmployeeImpl();
         }
 
-        public List<EmployeeMst> GetEmployeeList()
+        public List<EmployeeMstDTO> GetEmployeeList()
         {
-            return _DAL.GetEmployeeList();
+            List<EmployeeMstDTO> lstEmployee = new List<EmployeeMstDTO>();
+            foreach (EmployeeMst employee in _Iemployee.GetEmployeeList())
+            {
+                EmployeeMstDTO employeeDTO = new EmployeeMstDTO();
+                employeeDTO.Id = employee.Id;
+                employeeDTO.FirstName = employee.FirstName;
+                employeeDTO.LastName = employee.LastName;
+                lstEmployee.Add(employeeDTO);
+            }
+            return lstEmployee;
+
+            //return _Iemployee.GetEmployeeList();
+          }
+
+
+        public void CreateEmployee(EmployeeMstDTO employeeDTO)
+        {
+            var employeeMst = new EmployeeMst()
+            {
+                Id = employeeDTO.Id,
+                FirstName = employeeDTO.FirstName,
+                LastName = employeeDTO.LastName,
+            };
+
+            // _DAL.CreateEmployee(employee);
+            _Iemployee.CreateEmployee(employeeMst);
         }
 
-
-        public void CreateEmployee(EmployeeMst employee)
+        public Boolean UpdateEmployee(int id, EmployeeMstDTO employeeDTO)
         {
-            _DAL.CreateEmployee(employee);
-        }
+            var employeeMst = new EmployeeMst()
+            {
+                Id = employeeDTO.Id,
+                FirstName = employeeDTO.FirstName,
+                LastName = employeeDTO.LastName,
+            };
 
-        public Boolean UpdateEmployee(int id, EmployeeMst employee)
-        {
-            var updateEmployee = _DAL.UpdateEmployee(id, employee);
+            var updateEmployee = _Iemployee.UpdateEmployee(id, employeeMst);
             if (updateEmployee == false)
             {
                 return false;
@@ -34,15 +64,13 @@ namespace BusinessLayer
 
         public Boolean DeleteEmployee(int id)
         {
-            var deleteEmployee = _DAL.DeleteEmployee(id);
+            var deleteEmployee = _Iemployee.DeleteEmployee(id);
             if (deleteEmployee == false)
             {
                 return false;
             }
             return true;
         }
-
-
 
     }
 }

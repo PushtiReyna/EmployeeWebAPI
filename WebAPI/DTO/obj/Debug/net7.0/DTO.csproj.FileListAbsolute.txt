@@ -1,0 +1,12 @@
+D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\DTO\bin\Debug\net7.0\DTO.deps.json
+D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\DTO\bin\Debug\net7.0\DTO.dll
+D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\DTO\bin\Debug\net7.0\DTO.pdb
+D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\DTO\obj\Debug\net7.0\DTO.csproj.AssemblyReference.cache
+D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\DTO\obj\Debug\net7.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\DTO\obj\Debug\net7.0\DTO.AssemblyInfoInputs.cache
+D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\DTO\obj\Debug\net7.0\DTO.AssemblyInfo.cs
+D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\DTO\obj\Debug\net7.0\DTO.csproj.CoreCompileInputs.cache
+D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\DTO\obj\Debug\net7.0\DTO.dll
+D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\DTO\obj\Debug\net7.0\refint\DTO.dll
+D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\DTO\obj\Debug\net7.0\DTO.pdb
+D:\project\EmployeeWebAPI\EmployeeWebAPI\WebAPI\DTO\obj\Debug\net7.0\ref\DTO.dll

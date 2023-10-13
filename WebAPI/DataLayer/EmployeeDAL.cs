@@ -1,4 +1,5 @@
-﻿using EmployeeWebApi.Entities;
+﻿using DTO.ReqResDTO;
+using EmployeeWebApi.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
